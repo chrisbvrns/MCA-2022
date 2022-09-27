@@ -3,4 +3,4 @@ Hello, this is my Music - Curation and Analysis GitHub Repository.
 
 ## SubHeading 
 
-Take 2. 
+Take 2 - Retrying
