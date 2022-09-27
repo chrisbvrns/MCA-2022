@@ -1,5 +1,5 @@
 # Chris Burns Repository MCA 
-AIIIIIIIGHT LESSSS GO 
+Hello, this is my Music - Curation and Analysis GitHub Repository.
 
 ## SubHeading 
 
