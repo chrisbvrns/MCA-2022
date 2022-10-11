@@ -31,3 +31,16 @@ One of the challenges I found was finding notated data directly from produced fr
 For this weeks task, I have decided to transcribe a Piano arrangement of Porter Robinson's "Language" - covered by Evan Duffy. 
 
 Attached below is the transcribed piece, or alternatively, the transcribed piece can be downloaded from [MuseScore](Insert Link when done) 
+
+
+## Week 3 - Encoding 
+
+Based on a continuation of Week 2's task, we were asked to export our transcribed piece from MuseScore and export it to a MusicXML file. We then converted our MusicXML files to an MEI file. 
+
+Both formats can be found below: 
+- MusicXML 
+- MEI 
+
+### Verovio Task 
+
+Below is my imported MEI file of Porter Robinson's "Language" through Verovio 
