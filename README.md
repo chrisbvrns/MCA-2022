@@ -29,3 +29,5 @@ One of the challenges I found was finding notated data directly from produced fr
 ## Week 2 - Notation 
 
 For this weeks task, I have decided to transcribe a Piano arrangement of Porter Robinson's "Language" - covered by Evan Duffy. 
+
+Attached below is the transcribed piece, or alternatively, the transcribed piece can be downloaded from [MuseScore](Insert Link when done) 
