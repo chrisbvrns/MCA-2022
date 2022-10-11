@@ -6,6 +6,8 @@
 
 The theme I have chosen for my Music Curation and Analysis project is based on American electronic dance artist Porter Robinson. I've chosen Porter as my theme as I'm personally a massive fan of Porter's music and his journey through dance music (as well as how he's altered my own taste in music over the years). Porter is an artist I'm familiar with as I am regular listener of his music through the likes of his own alias and his side project Virtual Self. Porter has released 3 studio albums "Spitfire" "Worlds" and "Nurture" as well as a variety of E.P's and Singles. For the MuseScore task, I will be using a piano rendition of his breakthrough single "Language". 
 
+![Porter Robinson](https://dancingastronaut.com/wp-content/uploads/2019/06/Porter-Robinson-Worlds-Live.jpg)
+
 ### Types of Data
 
 #### Musical Scores (Notated Data)
