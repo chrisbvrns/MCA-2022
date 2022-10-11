@@ -12,7 +12,7 @@ The theme I have chosen for my Music Curation and Analysis project is based on A
 
 #### Musical Scores (Notated Data)
 
-I managed to find several fan curtated sheet music through the likes of [musicnotes.com](https://www.musicnotes.com/sheet-music/artist/porter-robinson) and the [MuseScore](https://musescore.com/user/37423453/scores/6737762) website. What I found is that most of the sheet music is something you'd have to pay for. For my selected piece ["Language"](https://www.scribd.com/document/134073550/Porter-Robinson-Language), I used scribd.com, which allowed for a 1 month free trial to download sheet music. 
+I managed to find several fan curtated sheet music through the likes of [musicnotes.com](https://www.musicnotes.com/sheet-music/artist/porter-robinson) and the [MuseScore](https://musescore.com/user/37423453/scores/6737762) website. What I found is that most of the sheet music is something you'd have to pay for.
 
 #### Metadata (Descritpive Data) 
 
@@ -25,3 +25,7 @@ Porter's catalogue of music can be found on major streaming services such as Spo
 ### Challenges Faced 
 
 One of the challenges I found was finding notated data directly from produced from the artist himself. As mentioned above, I could only really find sheet music from cover artists. Another challenge with working with curated data (particularly in my case) is copyright. As some of Porter's catalogue is licensed under Sony, there may be copyright issues in relation to using his music. This is something I acknowledge for this project as it is beign used for being educational purposes only - however if it were to be used outside of education (i.e. distributing to the public), I understand that there would be copyright implications I would have to bypass in order for this to be possible. 
+
+## Week 2 - Notation 
+
+For this weeks task, I have decided to transcribe a Piano arrangement of Porter Robinson's "Language" - covered by Evan Duffy. 
