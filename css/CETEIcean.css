@@ -1822,6 +1822,10 @@ mei-filedesc > mei-titlestmt > mei-respstmt {
   margin-top: 1em;
 }
 
+mei-composer [xml:id="composer1"] ::after {
+  content: "/a";
+}
+
 mei-filedesc > mei-titlestmt> mei-respstmt > mei-persname[role="composer"]::before {
   font-weight: bold;
   content: "Composer: ";
