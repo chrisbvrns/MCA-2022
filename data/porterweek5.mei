@@ -33,13 +33,13 @@
       <workList>
           <work>
              <title>Language (Evan Duffy Piano Cover)</title>
-             <composer xml:id="composer1">Porter Robinson</composer>
-             <arranger xml:id="arranger1">Evan Duffy</arranger>
-             <key>G</key>
-             <tempo>120</tempo>
+                  <composer>Porter Robinson</composer>
+                  <arranger>Evan Duffy</arranger>
+                  <key>G</key>
+                  <tempo>120</tempo>
              <perfMedium>
                  <perfResList>
-                    <perfRes>Piano</perfRes>
+                        <perfRes>Piano</perfRes>
                 </perfResList>
              </perfMedium>
          </work>
