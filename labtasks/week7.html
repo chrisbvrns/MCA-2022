@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>Challenges of Music Curation</title> 
+		<style>
+mei-filedesc > mei-titlestmt > mei-title {
+  color: #000000;
+  display: block;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+mei-filedesc > mei-pubstmt > mei-respstmt {
+  display: none;
+}
+
+mei-filedesc > mei-pubstmt > mei-respstmt > mei-name {
+  display: none;
+  font-size: 24pt;
+  font-weight: bold;
+}
+
+mei-filedesc > mei-pubstmt > mei-respstmt > mei-publisher {
+  display: none;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+mei-filedesc > mei-pubstmt > mei-respstmt > mei-publisher {
+  display: none;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+mei-workList  {
+  font-size: 20pt;
+}
+		</style>
+		<!-- Style Sheet --> 
+		<link rel="stylesheet" href="../css/style.css">
+		
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<!-- CSS only - From GetBoostrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		<!-- JavaScript Bundle with Popper - From Get Bootstrap  -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+		<!-- Fonts from Google Fonts	-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;&display=swap" rel="stylesheet">
+		
+		<!-- Icons 	--> 
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.css">
+		
+
+		<!-- External Stylesheets for Fonts -->
+		
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+	</head>
+	<!-- Navigation Menu -->
+	
+	<body>
+	
+		<section id="main">
+				<div class="navbar2" style="padding-left: 200px; padding-top: 20px;">
+					<ul>
+						<li> <a href="../home.html">Home</a></li>
+						<li> <a href="week1.html">Week 1</a></li>
+						<li> <a href="week2.html">Week 2</a></li>
+						<li> <a href="week3.html">Week 3</a></li>
+						<li> <a href="week4.html">Week 4</a></li>
+						<li> <a href="week5.html">Week 5</a></li>
+						<li> <a class="active" href="week7.html">Week 7</a></li>
+						<li> <a href="week8.html">Week 8</a></li>
+						<li> <a href="week9.html">Week 9</a></li>
+						<li> <a href="week10.html">Week 10</a></li>
+					</ul>
+				</div>
+			</div>
+				
+				<!-- 	Header 	-->
+			
+	<header>
+		<div class="container1">
+		<h1>Week 7: Challenges To Music Curation </h1>
+	</header>
+	
+	<!-- First Part of Body 	--> 
+	
+	<div class="container2">
+	
+		<h2>Task 1 - Creating a new version of my MEI File <h2>
+	
+		<p>For this weeks task, I have created a new version of my MEI file, based on the schema I had created/identified in last weeks tasks. This information can be found in the the < meiHead > tags at the top of the file. 
+		These include Title Statements, Publish Statements and a Work List of the document. The updated file can be found <a href="../files/porterweek5.mei">here</a>.
+		<br>
+		Attached below are images of the transcribed piece, or alternatively, the transcribed piece can be downloaded from <a href="../files/language.mscz">MuseScore</a>.<br>
+		<br>
+		<br>
+		
+ <div id="app">Verovio is loading...</div>
+    
+    <script type="module">
+        import 'https://www.verovio.org/javascript/app/verovio-app.js';
+        
+        const options = {
+            defaultView: 'responsive', // default is 'responsive', alternative is 'document'
+            defaultZoom: 3, // 0-7, default is 4
+            enableResponsive: true, // default is true
+            enableDocument: true // default is true
+        }
+        
+        // A MusicXML file
+        var file = 'language.mei';
+        // A MEI file
+        //var file = 'https://www.verovio.org/editor/brahms.mei';
+        
+        const app = new Verovio.App(document.getElementById("app"), options);
+        fetch(file)
+            .then(function(response) {
+                return response.text();
+            })
+            .then(function(text) {
+                app.loadData(text);
+            });
+    </script>
+		</section>
+	</body>
+		
+
+</html>
