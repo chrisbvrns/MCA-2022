@@ -569,5 +569,37 @@ button:hover::before{
     border-bottom: 2px solid #01446d;
 }
 
+mei-filedesc > mei-titlestmt > mei-title {
+  color: #000000;
+  display: block;
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+mei-filedesc > mei-pubstmt > mei-respstmt {
+  display: none;
+}
+
+mei-filedesc > mei-pubstmt > mei-respstmt > mei-name {
+  display: none;
+  font-size: 24pt;
+  font-weight: bold;
+}
+
+mei-filedesc > mei-pubstmt > mei-respstmt > mei-publisher {
+  display: none;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+mei-filedesc > mei-pubstmt > mei-respstmt > mei-publisher {
+  display: none;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+mei-workList  {
+  font-size: 20pt;
+}
 
 
