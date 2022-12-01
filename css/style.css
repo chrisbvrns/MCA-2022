@@ -602,7 +602,7 @@ mei-workList  {
   font-size: 20pt;
 }
 
-.app {
+#app {
 	height: 400px;
     background: white;
 }
