@@ -2,14 +2,14 @@
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
-  <meiHead>
+   <meiHead>
       <fileDesc>
          <titleStmt>
             <title>Porter Robinson — Language — Evan Duffy Piano Cover</title>
               <respStmt>
-                <resp> Encoded by: </resp>
-                <name> Christopher Burns </name>
-                <availability> Porter Robinson's Language is protected under the  Creative Commons Attribution 4.0 International, CC BY-NC- SA. This piece is to be used as part of the Music Curation and Analytics course through Digital Media and Information Studies at the University of Glasgow and not to be redistributed.</availability>
+              <resp> Encoded by: </resp>
+              <name> Christopher Burns </name>
+              <availability> Porter Robinson's Language is protected under the  Creative Commons Attribution 4.0 International, CC BY-NC- SA. This piece is to be used as part of the Music Curation and Analytics course through Digital Media and Information Studies at the University of Glasgow and not to be redistributed.</availability>
             </respStmt>
          </titleStmt>
          <pubStmt>
@@ -23,11 +23,11 @@
             
          </pubStmt>
       </fileDesc>
-      <encodingDesc xml:id="encodingdesc-x6vjs7">
-         <appInfo xml:id="appinfo-1hdfl1g">
-            <application xml:id="application-1rme547" isodate="2022-11-03T13:45:48" version="3.13.0-dev-b7fd92a">
-               <name xml:id="name-g2fovi">Verovio</name>
-               <p xml:id="p-1yt447g">Transcoded from MusicXML</p>
+      <encodingDesc xml:id="encodingdesc-138ife">
+         <appInfo xml:id="appinfo-nx2thh">
+            <application xml:id="application-8xvldo" isodate="2022-10-06T13:13:36" version="3.13.0-dev-9f8f833">
+               <name xml:id="name-znmxrd">Verovio</name>
+               <p xml:id="p-17l75h8">Transcoded from MusicXML</p>
             </application>
          </appInfo>
       </encodingDesc>
