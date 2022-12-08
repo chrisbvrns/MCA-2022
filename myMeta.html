@@ -166,7 +166,7 @@ mei-worklist > mei-work > mei-perfMedium > mei-perfResList > mei-perfRes::before
           enableDocument: true // default is true
       }
       // A MusicXML file
-      var file = 'porterweek5.mei';
+      var file = 'language.mei';
       // A MEI file
       //var file = 'https://www.verovio.org/editor/brahms.mei';
       const app = new Verovio.App(document.getElementById("app"), options);
@@ -191,7 +191,7 @@ mei-worklist > mei-work > mei-perfMedium > mei-perfResList > mei-perfRes::before
         mei: "http://www.music-encoding.org/ns/mei"
       }
     })
-    CETEI4MEI.getHTML5("porterweek5.mei", function(data) {
+    CETEI4MEI.getHTML5("language.mei", function(data) {
       // get header
       var meiHead = data.querySelector('mei-meiHead')
       document.getElementById("MEImeta").appendChild(meiHead)
@@ -205,7 +205,7 @@ mei-worklist > mei-work > mei-perfMedium > mei-perfResList > mei-perfRes::before
         scale: 50,
         adjustPageHeight: true
     })
-    fetch("porterweek5.mei").then(function( response ) {
+    fetch("langauge.mei").then(function( response ) {
         response.text().then(function( data ) {
           var svg = vrvToolkit.renderData(data, {})
           document.getElementById('MEI').innerHTML = svg
