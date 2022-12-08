@@ -19,11 +19,17 @@
    	margin-top: 30px;
     }
 	  
-  mei-titlestmt > mei-resp {
+mei-titlestmt > mei-resp::after >  {
+	content: "\a ";
+	white-space: pre;
+}
+	  
+ mei-titlestmt > mei-availability::before {
+	content: "Copyright Information: ";
+	font-family: Verdana;
 	font-weight: bold;
-	display: block;
-   	margin-top: 30px;
-    }
+	font-size: 16px;
+	  }
 	  
   mei-titlestmt > mei-arranger {
 	display: block;
@@ -31,7 +37,8 @@
 	  
 mei-pubstmt > mei-publisher {
 	display: none;
-	font-weight: bold;}
+	font-weight: bold;
+	  }
 	  
 mei-pubstmt > mei-publisher::before {
 	font-weight: bold;
