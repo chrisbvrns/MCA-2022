@@ -7,15 +7,15 @@
          <titleStmt>
             <title>Porter Robinson — Language — Evan Duffy Piano Cover</title>
               <respStmt>
-              <resp> Encoded by </resp>
+              <resp> <b>Encoded by<b> </resp>
               <name> Christopher Burns </name>
             </respStmt>
          </titleStmt>
          <pubStmt>
-            	<publisher> Christopher Burns </publisher>
+            <publisher> <b>Publisher:</b> Christopher Burns </publisher>
             		<address>
             			<addrLine>
-              				<geogName> Glasgow, Scotland </geogName>
+                        <geogName> <b>Location:</b> Glasgow, Scotland </geogName>
             			</addrLine>
           		</address>
             <date isodate="2022-10-06" type="encoding-date">2022-10-06</date>
@@ -32,14 +32,14 @@
       </encodingDesc>
       <workList>
           <work>
-             <title>Language (Evan Duffy Piano Cover)</title>
-             <composer xml:id="composer1">Porter Robinson</composer>
-             <arranger xml:id="arranger1">Evan Duffy</arranger>
-             <key>G</key>
-             <tempo>120</tempo>
+             <title><b>Title:</b>Language (Evan Duffy Piano Cover)</title>
+             <composer xml:id="composer1"><b>Composer:</b>Porter Robinson</composer>
+             <arranger xml:id="arranger1"><b>Arranger:</b>Evan Duffy</arranger>
+             <key><b>Key:G</key>
+             <tempo><b>Tempo:</b>120</tempo>
              <perfMedium>
                  <perfResList>
-                    <perfRes>Piano</perfRes>
+                    <perfRes><b>Instrumentation:</b>Piano</perfRes>
                 </perfResList>
              </perfMedium>
          </work>
