@@ -2,13 +2,25 @@
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://music-encoding.org/schema/dev/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.0.0-dev">
-   <meiHead>
+  <meiHead>
       <fileDesc>
          <titleStmt>
-            <title>Porter Robinson — Language — Evan Duffy piano cover</title>
-            <respStmt />
+            <title>Porter Robinson — Language — Evan Duffy Piano Cover</title>
+              <respStmt>
+              <resp> Encoded by: </resp>
+              <name> Christopher Burns </name>
+              <availability> Porter Robinson's Language is protected under the  Creative Commons Attribution 4.0 International, CC BY-NC- SA. This piece is to be used as part of the Music Curation and Analytics course through Digital Media and Information Studies at the University of Glasgow and not to be redistributed.</availability>
+            </respStmt>
          </titleStmt>
-         <pubStmt><date isodate="2022-10-25" type="encoding-date">2022-10-25</date>
+         <pubStmt>
+            <publisher>Publisher: Christopher Burns </publisher>
+            		<address>
+            			<addrLine>
+                        <geogName>Location: Glasgow, Scotland </geogName>
+            			</addrLine>
+          		</address>
+            <date isodate="2022-10-06" type="encoding-date">2022-10-06</date>
+            
          </pubStmt>
       </fileDesc>
       <encodingDesc xml:id="encodingdesc-x6vjs7">
@@ -19,6 +31,20 @@
             </application>
          </appInfo>
       </encodingDesc>
+      <workList>
+          <work>
+             <title>Language (Evan Duffy Piano Cover)</title>
+               <composer xml:id="composer1"> Porter Robinson</composer>
+                  <arranger xml:id="arranger1">Evan Duffy</arranger>
+                      <key>G</key>
+                      <tempo>120</tempo>
+                         <perfMedium>
+                            <perfResList>
+                                <perfRes> Piano</perfRes>
+                            </perfResList>
+                         </perfMedium>
+         </work>
+      </workList>
    </meiHead>
    <music>
       <body>
